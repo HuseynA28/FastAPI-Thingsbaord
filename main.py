@@ -11,6 +11,7 @@ from pydantic import BaseModel
 from typing import List
 from enum import Enum
 from getDevicesNames import *
+from getCustomerInfo import *
 from auth import oauth2_scheme  
 load_dotenv()
 base_url = os.getenv('BASE_URL', "https://emea5.ebmpapstneo.io")
@@ -54,6 +55,31 @@ async def protected_route(token: Annotated[str, Depends(oauth2_scheme)]):
     return {"message": "You have accessed a protected route!", "token": token}
 
 
+# @app.get("/getCustomerDeviceNames/")
+# async def getCustomerDevice(
+#     token: Annotated[str, Depends(oauth2_scheme)], 
+#     customerId : str =Query(...,description= "A string value representing the customer id. For example:784f394c-42b6-435a-983c-b7beff2784f9"), 
+#     pageSize : int = Query (1000,description= "Maximum amount of entities in a one page The defaut value is 1000" ), 
+#     page : int = Query(0,description="Sequence number of page starting from 0"), 
+#     includeCustomers : bool=True, 
+#     active: bool =False
+# ):
+
+#     return await get_device_names(token=token, customerId=customerId, pageSize=pageSize, page=page, includeCustomers=includeCustomers, active=active)
+
+
+
+@app.get("/getCustomerInfo/")
+async def getCustomerDevice(
+    token: Annotated[str, Depends(oauth2_scheme)], 
+    customerId : str =Query(...,description= "A string value representing the customer id. For example:784f394c-42b6-435a-983c-b7beff2784f9"), 
+):
+
+    return await getCustomerInfo(token=token, customerId=customerId)
+
+
+
+
 @app.get("/getCustomerDeviceNames/")
 async def getCustomerDevice(
     token: Annotated[str, Depends(oauth2_scheme)], 
@@ -65,7 +91,6 @@ async def getCustomerDevice(
 ):
 
     return await get_device_names(token=token, customerId=customerId, pageSize=pageSize, page=page, includeCustomers=includeCustomers, active=active)
-    # return {"message": "You have accessed a protected route!", "token": customerId}
 
 
 # https://emea5.ebmpapstneo.io/swagger-ui/#/device-controller/getCustomerDeviceInfosUsingGET

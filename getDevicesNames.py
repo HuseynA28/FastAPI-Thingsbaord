@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 from fastapi import HTTPException
 from auth import oauth2_scheme  
 import os 
+import json
+import numpy as np
+devices={}
 load_dotenv()
 base_url = os.getenv('BASE_URL')
 if not base_url:
@@ -30,13 +33,11 @@ async def get_device_names(
 
             response = await client.get(tenant_url, headers=headers, params=params)
             response.raise_for_status()
-            data = response.json()
+            data = response.json()     
+            devices.update(map(lambda i: (i.get("name"), i.get("id", {}).get("id")), data["data"]))
             if not data:
                 raise HTTPException(status_code=404, detail="Device not found")
-            device_id = data.get("id", {}).get("id")
-            # if not device_id:
-            #     raise HTTPException(status_code=404, detail="Device ID not found")
-            return data
+            return  devices
         except HTTPException as he:
             raise he
         except Exception as e:
