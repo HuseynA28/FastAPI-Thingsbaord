@@ -1,0 +1,138 @@
+{
+  "data": [
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "7c4145c0-e533-11ef-9681-df1aaf416822"
+      },
+      "createdTime": 1738919476252,
+      "additionalInfo": {
+        "gateway": false,
+        "overwriteActivityTime": false,
+        "description": ""
+      },
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      },
+      "name": "C4DEE264E540-002",
+      "type": "BRAVO",
+      "label": "1",
+      "deviceProfileId": {
+        "entityType": "DEVICE_PROFILE",
+        "id": "49924bc0-962a-11ec-bcd8-afb5f342d01b"
+      },
+      "deviceData": {
+        "configuration": {
+          "type": "DEFAULT"
+        },
+        "transportConfiguration": {
+          "type": "DEFAULT"
+        }
+      },
+      "firmwareId": null,
+      "softwareId": null,
+      "externalId": null,
+      "ownerName": null,
+      "groups": [],
+      "active": false,
+      "ownerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      }
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "be7b4b90-b36a-11ed-9188-71dcc7f44f0f"
+      },
+      "createdTime": 1677150656201,
+      "additionalInfo": null,
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      },
+      "name": "C4DEE264E540",
+      "type": "IntelliGateLTE",
+      "label": null,
+      "deviceProfileId": {
+        "entityType": "DEVICE_PROFILE",
+        "id": "c0edae80-e626-11eb-9908-490b30a63a7a"
+      },
+      "deviceData": {
+        "configuration": {
+          "type": "DEFAULT"
+        },
+        "transportConfiguration": {
+          "type": "DEFAULT"
+        }
+      },
+      "firmwareId": null,
+      "softwareId": null,
+      "externalId": null,
+      "ownerName": null,
+      "groups": [],
+      "active": false,
+      "ownerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      }
+    },
+    {
+      "id": {
+        "entityType": "DEVICE",
+        "id": "fbcded60-de0e-11ef-9681-df1aaf416822"
+      },
+      "createdTime": 1738134140726,
+      "additionalInfo": {
+        "gateway": false,
+        "overwriteActivityTime": false,
+        "description": ""
+      },
+      "tenantId": {
+        "entityType": "TENANT",
+        "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+      },
+      "customerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      },
+      "name": "C4DEE264E540-001",
+      "type": "Modbus V6 Fan",
+      "label": "1",
+      "deviceProfileId": {
+        "entityType": "DEVICE_PROFILE",
+        "id": "c0f66110-e626-11eb-9908-490b30a63a7a"
+      },
+      "deviceData": {
+        "configuration": {
+          "type": "DEFAULT"
+        },
+        "transportConfiguration": {
+          "type": "DEFAULT"
+        }
+      },
+      "firmwareId": null,
+      "softwareId": null,
+      "externalId": null,
+      "ownerName": null,
+      "groups": [],
+      "active": false,
+      "ownerId": {
+        "entityType": "CUSTOMER",
+        "id": "773225d0-e534-11ef-9681-df1aaf416822"
+      }
+    }
+  ],
+  "totalPages": 1,
+  "totalElements": 3,
+  "hasNext": false
+}
