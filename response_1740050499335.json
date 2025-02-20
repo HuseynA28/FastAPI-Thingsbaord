@@ -1,0 +1,255 @@
+[
+  {
+    "id": {
+      "entityType": "DEVICE",
+      "id": "0c4b80a0-9b26-11ec-bcd8-afb5f342d01b"
+    },
+    "createdTime": 1646334825898,
+    "additionalInfo": null,
+    "tenantId": {
+      "entityType": "TENANT",
+      "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+    },
+    "customerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    },
+    "name": "GKC-C4DD57B6A504",
+    "type": "IntelliGateAIR",
+    "label": null,
+    "deviceProfileId": {
+      "entityType": "DEVICE_PROFILE",
+      "id": "a792d3a0-5cbb-11ec-9110-c758097501fa"
+    },
+    "deviceData": {
+      "configuration": {
+        "type": "DEFAULT"
+      },
+      "transportConfiguration": {
+        "type": "DEFAULT"
+      }
+    },
+    "firmwareId": null,
+    "softwareId": null,
+    "externalId": null,
+    "ownerName": null,
+    "groups": [
+      {
+        "id": {
+          "entityType": "ENTITY_GROUP",
+          "id": "3096fba0-d67d-11ec-9b9b-072109ec9a92"
+        },
+        "name": "Fans"
+      }
+    ],
+    "active": false,
+    "ownerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    }
+  },
+  {
+    "id": {
+      "entityType": "DEVICE",
+      "id": "0c5062a0-9b26-11ec-bcd8-afb5f342d01b"
+    },
+    "createdTime": 1646334825930,
+    "additionalInfo": {
+      "gateway": false,
+      "overwriteActivityTime": false,
+      "description": ""
+    },
+    "tenantId": {
+      "entityType": "TENANT",
+      "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+    },
+    "customerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    },
+    "name": "GKC-C4DD57B6A504-003",
+    "type": "Modbus V5.0 Fan",
+    "label": "Exhaust2",
+    "deviceProfileId": {
+      "entityType": "DEVICE_PROFILE",
+      "id": "c0f576b0-e626-11eb-9908-490b30a63a7a"
+    },
+    "deviceData": {
+      "configuration": {
+        "type": "DEFAULT"
+      },
+      "transportConfiguration": {
+        "type": "DEFAULT"
+      }
+    },
+    "firmwareId": null,
+    "softwareId": null,
+    "externalId": null,
+    "ownerName": null,
+    "groups": [
+      {
+        "id": {
+          "entityType": "ENTITY_GROUP",
+          "id": "3096fba0-d67d-11ec-9b9b-072109ec9a92"
+        },
+        "name": "Fans"
+      }
+    ],
+    "active": false,
+    "ownerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    }
+  },
+  {
+    "id": {
+      "entityType": "DEVICE",
+      "id": "0c5544a0-9b26-11ec-bcd8-afb5f342d01b"
+    },
+    "createdTime": 1646334825962,
+    "additionalInfo": {
+      "gateway": false,
+      "overwriteActivityTime": false,
+      "description": ""
+    },
+    "tenantId": {
+      "entityType": "TENANT",
+      "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+    },
+    "customerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    },
+    "name": "GKC-C4DD57B6A504-002",
+    "type": "Modbus V6 Fan",
+    "label": "Inlet2",
+    "deviceProfileId": {
+      "entityType": "DEVICE_PROFILE",
+      "id": "c0f66110-e626-11eb-9908-490b30a63a7a"
+    },
+    "deviceData": {
+      "configuration": {
+        "type": "DEFAULT"
+      },
+      "transportConfiguration": {
+        "type": "DEFAULT"
+      }
+    },
+    "firmwareId": null,
+    "softwareId": null,
+    "externalId": null,
+    "ownerName": null,
+    "groups": [
+      {
+        "id": {
+          "entityType": "ENTITY_GROUP",
+          "id": "3096fba0-d67d-11ec-9b9b-072109ec9a92"
+        },
+        "name": "Fans"
+      }
+    ],
+    "active": false,
+    "ownerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    }
+  },
+  {
+    "id": {
+      "entityType": "DEVICE",
+      "id": "6f0cc8d0-ab8d-11ec-bcd8-afb5f342d01b"
+    },
+    "createdTime": 1648138448349,
+    "additionalInfo": {
+      "gateway": false,
+      "overwriteActivityTime": false,
+      "description": ""
+    },
+    "tenantId": {
+      "entityType": "TENANT",
+      "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+    },
+    "customerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    },
+    "name": "Test Device Daume",
+    "type": "default",
+    "label": "",
+    "deviceProfileId": {
+      "entityType": "DEVICE_PROFILE",
+      "id": "bff4a880-e626-11eb-9908-490b30a63a7a"
+    },
+    "deviceData": {
+      "configuration": {
+        "type": "DEFAULT"
+      },
+      "transportConfiguration": {
+        "type": "DEFAULT"
+      }
+    },
+    "firmwareId": null,
+    "softwareId": null,
+    "externalId": null,
+    "ownerName": null,
+    "groups": [],
+    "active": false,
+    "ownerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    }
+  },
+  {
+    "id": {
+      "entityType": "DEVICE",
+      "id": "806bb700-c175-11ec-bcd8-afb5f342d01b"
+    },
+    "createdTime": 1650547095152,
+    "additionalInfo": {
+      "gateway": false,
+      "overwriteActivityTime": false,
+      "description": ""
+    },
+    "tenantId": {
+      "entityType": "TENANT",
+      "id": "df80bdc0-18be-11e9-b7c6-afc03ecb7b2a"
+    },
+    "customerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    },
+    "name": "GKC-C4DD57B6A504-016",
+    "type": "Thermokon",
+    "label": null,
+    "deviceProfileId": {
+      "entityType": "DEVICE_PROFILE",
+      "id": "d31258d0-c560-11ec-bcd8-afb5f342d01b"
+    },
+    "deviceData": {
+      "configuration": {
+        "type": "DEFAULT"
+      },
+      "transportConfiguration": {
+        "type": "DEFAULT"
+      }
+    },
+    "firmwareId": null,
+    "softwareId": null,
+    "externalId": null,
+    "ownerName": null,
+    "groups": [
+      {
+        "id": {
+          "entityType": "ENTITY_GROUP",
+          "id": "3096fba0-d67d-11ec-9b9b-072109ec9a92"
+        },
+        "name": "Fans"
+      }
+    ],
+    "active": false,
+    "ownerId": {
+      "entityType": "CUSTOMER",
+      "id": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+    }
+  }
+]

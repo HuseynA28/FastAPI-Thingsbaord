@@ -33,13 +33,14 @@ async def get_device_names(
 
             response = await client.get(tenant_url, headers=headers, params=params)
             response.raise_for_status()
-            data = response.json()     
-            devices.update(map(lambda i: (i.get("name"), i.get("id", {}).get("id")), data["data"]))
+            data = response.json()   
             if not data:
-                raise HTTPException(status_code=404, detail="Device not found")
-            return  devices
-        except HTTPException as he:
-            raise he
-        except Exception as e:
+                raise HTTPException(status_code=404, detail="Device not found")  
+            else:
+                devices.update(map(lambda i: (i.get("name"), i.get("id", {}).get("id")), data["data"])) 
+                return  devices
+            
+        except HTTPException as e:
             detail_message = str(e) if str(e).strip() else "No element(s) found"
             raise HTTPException(status_code=404, detail=detail_message)
+

@@ -1,0 +1,32 @@
+{
+  "GKC-C4DD57B6A504": {
+    "id": "0c4b80a0-9b26-11ec-bcd8-afb5f342d01b",
+    "type": "IntelliGateAIR",
+    "label": null,
+    "customerId": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+  },
+  "GKC-C4DD57B6A504-003": {
+    "id": "0c5062a0-9b26-11ec-bcd8-afb5f342d01b",
+    "type": "Modbus V5.0 Fan",
+    "label": "Exhaust2",
+    "customerId": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+  },
+  "GKC-C4DD57B6A504-002": {
+    "id": "0c5544a0-9b26-11ec-bcd8-afb5f342d01b",
+    "type": "Modbus V6 Fan",
+    "label": "Inlet2",
+    "customerId": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+  },
+  "Test Device Daume": {
+    "id": "6f0cc8d0-ab8d-11ec-bcd8-afb5f342d01b",
+    "type": "default",
+    "label": "",
+    "customerId": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+  },
+  "GKC-C4DD57B6A504-016": {
+    "id": "806bb700-c175-11ec-bcd8-afb5f342d01b",
+    "type": "Thermokon",
+    "label": null,
+    "customerId": "4412d9e0-ab8c-11ec-bcd8-afb5f342d01b"
+  }
+}
